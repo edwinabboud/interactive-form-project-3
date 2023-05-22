@@ -1,0 +1,68 @@
+On page load, the cursor appears in the ‘Name’ field, ready for a user to type.
+ 
+ ‘Other job role’ text field displays/hides when a user selects/deselects ‘Other’ from the Job Role menu.
+ 
+ The total cost of selected activities correctly updates in the form when users select or deselect activities.
+ 
+ When the page loads, ‘Credit Card’ is selected in the payment field, and the credit card section is the only payment section displayed in the form’s UI.
+ 
+ The payment section updates correctly when the user changes the selected payment method in the drop down menu.
+ 
+ Form submission uses the submit event on the form element.
+ 
+ The activities have obvious focus state indicators when tabbing through the form’s inputs.
+ 
+ Code comments have been added to the js/script.js file.
+ 
+ 
+ At least one required field validates user input in real time as the user interacts with the field.
+ 
+ 
+ At least one required form field provides validation error messages that differ depending on the reason the field is invalid.
+ The ‘Color’ field is enabled when a ‘Theme’ is selected
+ 
+Because the ‘Color’ field is already enabled when the page loads, it can’t really enable when a ‘Theme’ is selected.
+ 
+ The ‘Color’ field is disabled when the page loads.
+ 
+The ‘Color’ field is currently enabled upon page load.
+ 
+ The ‘Color’ field updates correctly when a T-shirt theme is selected or changed
+ 
+The ‘Color’ field does not change to ensure that the ‘Theme’ and ‘Color’ do not contradict each other.
+ 
+ The ‘Color’ drop down menu updates correctly when a T-Shirt theme is selected or changed.
+ 
+The ‘Color’ drop down menu shows all 6 options at all times instead of updating based on the ‘Theme’.
+ 
+ The user is prevented from selecting two activities that are at the same day and time.
+ 
+EXTRA CREDIT: Two activities that are at the same day and time can be selected on the form.
+ 
+ Form cannot be submitted (the page does not refresh when the submit button is clicked) until the following requirements have been met: Name isn’t blank, ‘email’ is correctly formatted, at least one activity has been selected
+ 
+I can see that you’ve kept this requirement in mind, however the form can’t be submitted due to code errors and not that there is invalid input. Revisit this requirement after those errors are addressed to see if it’s met!
+ 
+ If ‘Credit Card’ is the selected payment option, the three credit card fields accept only numbers: a 13 to 16-digit credit card number, a 5-digit zip code, and 3-digit CVV value.
+ 
+Same with this one! You’ve been mindful of what would/wouldn’t be a valid input but there are still some kinks to work out.
+ 
+ When all the required fields are filled out correctly, the form submits (the page refreshes on its own when the submit button is clicked).
+ 
+The form does not submit even with all valid information. The current issue seems to be that a variable is not defined before it is used, but there may be more once that is fixed.
+ 
+ Form fields that have real time validation and conditional error messages are detailed in the project’s README.me file.
+ 
+Be sure to detail your name input with it’s real time validation and additional error message to meet the associated extra credit requirements!
+ 
+ If a required field’s input is not valid when the form is submitted, a validation error message, warning icon and color are displayed.
+ 
+This is true for the ‘Name’ and ‘Email Address’ fields, but also needs to be present on the ‘Activities’ and ‘Payment’ sections.
+ 
+ If a required field’s input is valid when the form is submitted, a checkmark icon is displayed and no error indicators are displayed.
+ 
+Same as with the invalid information styling, the ‘Name’ and ‘Email Address’ inputs work as intended but the ‘Activities’ and ‘Payment’ sections do not.
+ 
+ No unresolved errors appear in the console when the form loads or is interacted with.
+ 
+Some errors appear when interacting with the ‘T-Shirt’ section and attempting form submission with or without valid information.
